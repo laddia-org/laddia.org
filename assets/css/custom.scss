@@ -36,17 +36,18 @@
 
 .logo-row {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1.5em;
+  flex-wrap: wrap; /* allows wrapping on very small screens */
+  justify-content: space-between; /* spreads logos evenly */
   align-items: center;
+  gap: 1em; /* spacing between logos */
   margin-top: 2em;
 }
 
 .logo-row img {
-  height: 30px; /* adjust as needed */
-  width: auto;
-  max-width: 100%;
+  flex: 1 1 0;
+  max-width: 200px; /* prevents logos from getting too big */
+  height: auto;     /* scales height proportionally */
+  object-fit: contain;
 }
 
 .wrapper {
