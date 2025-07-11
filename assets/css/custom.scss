@@ -44,7 +44,11 @@
 }
 
 .logo-row img {
-  height: 60px; /* adjust as needed */
+  height: 30px; /* adjust as needed */
   width: auto;
   max-width: 100%;
+}
+
+.wrapper {
+  max-width: 1200px; /* or whatever width you prefer */
 }
