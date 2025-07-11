@@ -33,3 +33,18 @@
 .signup-form input[type="submit"]:hover {
   background: #005f8d;
 }
+
+.logo-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5em;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.logo-row img {
+  height: 60px; /* adjust as needed */
+  width: auto;
+  max-width: 100%;
+}
