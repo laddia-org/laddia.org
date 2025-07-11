@@ -25,7 +25,7 @@ title: Subscribe
   </div>
   
   <div>
-    <label for="mce-COMPANY">Company</label>
+    <label for="mce-COMPANY">Organization</label>
     <input type="text" name="COMPANY" id="mce-COMPANY">
   </div>
   
