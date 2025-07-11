@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Subscribe
-description: Join our mailing list
+description: Join our mailing list to receive updates
 ---
 
 <div class="signup-form">
