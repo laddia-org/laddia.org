@@ -34,19 +34,22 @@
   background: #005f8d;
 }
 
+
 .logo-row {
   display: flex;
-  flex-wrap: wrap; /* allows wrapping on very small screens */
-  justify-content: space-between; /* spreads logos evenly */
+  flex-wrap: nowrap;
+  justify-content: space-between;
   align-items: center;
-  gap: 1em; /* spacing between logos */
+  gap: 1em;
+  overflow-x: auto;
   margin-top: 2em;
 }
 
 .logo-row img {
-  flex: 1 1 0;
-  max-width: 200px; /* prevents logos from getting too big */
-  height: auto;     /* scales height proportionally */
+  flex: 0 0 auto;
+  max-height: 60px;
+  height: auto;
+  width: auto;
   object-fit: contain;
 }
 
