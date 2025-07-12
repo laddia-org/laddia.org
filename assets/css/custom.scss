@@ -66,12 +66,18 @@
 }
 
 .site-nav a {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 1.1em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
   color: white;
   text-decoration: none;
   padding: 0.25em 0.5em;
   border-radius: 4px;
   transition: background 0.2s;
 }
+
+
 
 .site-nav a:hover {
   background: rgba(255, 255, 255, 0.2);
