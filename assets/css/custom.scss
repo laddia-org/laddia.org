@@ -84,11 +84,6 @@
   }
 }
 
-
-.site-logo {
-  max-height: 80px;
-}
-
 .has-background-logo {
   position: relative;
   text-align: center;
@@ -115,7 +110,16 @@
 }
 
 .page-header {
-  // background-color: #bde7c6 !important; /* Example: deep blue */
   background: linear-gradient(120deg, #489aec, #468c69) !important;
 
+}
+
+.project-name {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 2.5em;
+  letter-spacing: 0.03em;
+  color: #ffffff; /* or your preferred color */
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.4); /* subtle depth */
+  margin-bottom: 0.3em;
 }
