@@ -103,7 +103,7 @@
   max-width: 80%;
   max-height: 180px;  /* adjust to taste */
   height: auto;
-  opacity: 0.1; /* adjust for desired faintness */
+  opacity: 0.2; /* adjust for desired faintness */
   z-index: 0;
   pointer-events: none; /* makes the logo not interfere with clicks */
 }
@@ -116,7 +116,7 @@
 }
 
 .page-header {
-  background: linear-gradient(120deg,#255c4e, #3e1c84) !important;
+  background: linear-gradient(120deg, #3e1c84, #255c4e) !important;
 
 }
 
