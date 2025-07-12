@@ -88,7 +88,13 @@
   display: flex;
   align-items: center;
   gap: 1em;
+  justify-content: center; /* centers the group horizontally */
 }
+
+.logo-header > div {
+  text-align: left; /* or center, if you prefer */
+}
+
 
 .site-logo {
   max-height: 80px;
