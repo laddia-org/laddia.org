@@ -23,12 +23,12 @@
       <div>
         <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
         <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+        <nav class="site-nav">
+          <a href="{{ "/" | relative_url }}">Home</a>
+          <a href="{{ "/about" | relative_url }}">About</a>
+          <a href="{{ "/subscribe" | relative_url }}">Subscribe</a>
+        </nav>      
       </div>
-      <nav class="site-nav">
-        <a href="{{ "/" | relative_url }}">Home</a>
-        <a href="{{ "/about" | relative_url }}">About</a>
-        <a href="{{ "/subscribe" | relative_url }}">Subscribe</a>
-      </nav>      
     </header>
 
     <main id="content" class="main-content" role="main">
