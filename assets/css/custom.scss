@@ -83,3 +83,13 @@
     align-items: center;
   }
 }
+
+.logo-header {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.site-logo {
+  max-height: 60px;
+}
