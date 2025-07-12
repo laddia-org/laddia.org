@@ -88,3 +88,27 @@
 .site-logo {
   max-height: 80px;
 }
+
+.has-background-logo {
+  position: relative;
+  text-align: center;
+}
+
+.background-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* center the image */
+  max-width: 80%;
+  height: auto;
+  opacity: 0.1; /* adjust for desired faintness */
+  z-index: 0;
+  pointer-events: none; /* makes the logo not interfere with clicks */
+}
+
+.has-background-logo h1,
+.has-background-logo h2,
+.has-background-logo .site-nav {
+  position: relative;
+  z-index: 1; /* ensures text is on top */
+}
