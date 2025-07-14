@@ -2,14 +2,13 @@
 layout: default
 ---
 
-**Louisiana AI Drug Development Infrastructure for ALS** (**LADDIA**) brings together leading institutions and innovators, including Tulane University, LSU’s Pennington Biomedical Research Center, and GATC Health, to harness the power of artificial intelligence and one of the largest ALS datasets in the world.
+<div class="justify-text" markdown="1">
 
-{: .justify-text }
+**Louisiana AI Drug Development Infrastructure for ALS** (**LADDIA**) brings together leading institutions and innovators, including Tulane University, LSU’s Pennington Biomedical Research Center, and GATC Health, to harness the power of artificial intelligence and one of the largest ALS datasets in the world.
 
 This initiative is made possible through a commitment from the State of Louisiana to advance neuroscience research and innovation across the state. By investing in LADDIA, Louisiana is helping to position itself as a national leader in the convergence of AI and biomedical discovery.
 
-{: .justify-text }
-
+</div>
 
 <div class="logo-row">
   <a href="https://www.answerals.org/"><img src="https://mma.prnewswire.com/media/2571456/5056330/Answer_ALS_Logo.jpg" alt="Answer ALS logo"></a>
